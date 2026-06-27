@@ -1,0 +1,878 @@
+Dependencies for Project 'step09_drvp_gpio', Target 'SWM320': (DO NOT MODIFY !)
+F (.\App\main.c)(0x6A34A9D0)(--c99 -c --cpu Cortex-M4 -D__MICROLIB --li -g -O1 --apcs=interwork -I .\App -I .\CMSIS -I .\StdLib -I .\App\FreeRTOS\include -I .\App\FreeRTOS\portable\RVDS\ARM_CM3-I.\RTE\_SWM320-ID:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525"-o .\out\main.o --omf_browse .\out\main.crf --depend .\out\main.d)
+I (.\CMSIS\SWM320.h)(0x6A34A989)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)
+I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5E8E3CC2)
+I (.\CMSIS\core_cm4.h)(0x6A34A989)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (.\CMSIS\core_cmInstr.h)(0x6A34A989)
+I (.\CMSIS\core_cmFunc.h)(0x6A34A989)
+I (.\CMSIS\core_cmSimd.h)(0x6A34A989)
+I (.\CMSIS\system_SWM320.h)(0x6A34A989)
+I (.\StdLib\SWM320_port.h)(0x6A34A989)
+I (.\StdLib\SWM320_gpio.h)(0x6A34A989)
+I (.\StdLib\SWM320_exti.h)(0x6A34A989)
+I (.\StdLib\SWM320_timr.h)(0x6A34A989)
+I (.\StdLib\SWM320_uart.h)(0x6A34A989)
+I (.\StdLib\SWM320_spi.h)(0x6A34A989)
+I (.\StdLib\SWM320_i2c.h)(0x6A34A989)
+I (.\StdLib\SWM320_pwm.h)(0x6A34A989)
+I (.\StdLib\SWM320_adc.h)(0x6A34A989)
+I (.\StdLib\SWM320_dma.h)(0x6A34A989)
+I (.\StdLib\SWM320_lcd.h)(0x6A34A989)
+I (.\StdLib\SWM320_can.h)(0x6A34A989)
+I (.\StdLib\SWM320_sdio.h)(0x6A34A989)
+I (.\StdLib\SWM320_flash.h)(0x6A34A989)
+I (.\StdLib\SWM320_norflash.h)(0x6A34A989)
+I (.\StdLib\SWM320_sdram.h)(0x6A34A989)
+I (.\StdLib\SWM320_sram.h)(0x6A34A989)
+I (.\StdLib\SWM320_crc.h)(0x6A34A989)
+I (.\StdLib\SWM320_rtc.h)(0x6A34A989)
+I (.\StdLib\SWM320_wdt.h)(0x6A34A989)
+I (.\App\FreeRTOS\include\FreeRTOS.h)(0x6A34A989)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
+I (.\App\FreeRTOSConfig.h)(0x6A34A989)
+I (.\App\FreeRTOS\include\projdefs.h)(0x6A34A98A)
+I (.\App\FreeRTOS\include\portable.h)(0x6A34A98A)
+I (.\App\FreeRTOS\include\deprecated_definitions.h)(0x6A34A98A)
+I (.\App\FreeRTOS\portable\RVDS\ARM_CM3\portmacro.h)(0x6A34A989)
+I (.\App\FreeRTOS\include\mpu_wrappers.h)(0x6A34A98A)
+I (.\App\FreeRTOS\include\task.h)(0x6A34A98A)
+I (.\App\FreeRTOS\include\list.h)(0x6A34A98A)
+I (.\App\FreeRTOS\include\queue.h)(0x6A34A98A)
+I (App\drv_uart0.h)(0x6A34A989)
+I (App\loopbuf.h)(0x6A34A989)
+I (App\io_config.h)(0x6A34A989)
+I (App\cmd_line.h)(0x6A34A98A)
+I (App\drvp_gpio.h)(0x6A34A991)
+F (.\App\loopbuf.c)(0x6A34A989)(--c99 -c --cpu Cortex-M4 -D__MICROLIB --li -g -O1 --apcs=interwork -I .\App -I .\CMSIS -I .\StdLib -I .\App\FreeRTOS\include -I .\App\FreeRTOS\portable\RVDS\ARM_CM3-I.\RTE\_SWM320-ID:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525"-o .\out\loopbuf.o --omf_browse .\out\loopbuf.crf --depend .\out\loopbuf.d)
+I (App\loopbuf.h)(0x6A34A989)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+F (.\App\io_config.c)(0x6A34A989)(--c99 -c --cpu Cortex-M4 -D__MICROLIB --li -g -O1 --apcs=interwork -I .\App -I .\CMSIS -I .\StdLib -I .\App\FreeRTOS\include -I .\App\FreeRTOS\portable\RVDS\ARM_CM3-I.\RTE\_SWM320-ID:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525"-o .\out\io_config.o --omf_browse .\out\io_config.crf --depend .\out\io_config.d)
+I (App\io_config.h)(0x6A34A989)
+I (.\CMSIS\SWM320.h)(0x6A34A989)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)
+I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5E8E3CC2)
+I (.\CMSIS\core_cm4.h)(0x6A34A989)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (.\CMSIS\core_cmInstr.h)(0x6A34A989)
+I (.\CMSIS\core_cmFunc.h)(0x6A34A989)
+I (.\CMSIS\core_cmSimd.h)(0x6A34A989)
+I (.\CMSIS\system_SWM320.h)(0x6A34A989)
+I (.\StdLib\SWM320_port.h)(0x6A34A989)
+I (.\StdLib\SWM320_gpio.h)(0x6A34A989)
+I (.\StdLib\SWM320_exti.h)(0x6A34A989)
+I (.\StdLib\SWM320_timr.h)(0x6A34A989)
+I (.\StdLib\SWM320_uart.h)(0x6A34A989)
+I (.\StdLib\SWM320_spi.h)(0x6A34A989)
+I (.\StdLib\SWM320_i2c.h)(0x6A34A989)
+I (.\StdLib\SWM320_pwm.h)(0x6A34A989)
+I (.\StdLib\SWM320_adc.h)(0x6A34A989)
+I (.\StdLib\SWM320_dma.h)(0x6A34A989)
+I (.\StdLib\SWM320_lcd.h)(0x6A34A989)
+I (.\StdLib\SWM320_can.h)(0x6A34A989)
+I (.\StdLib\SWM320_sdio.h)(0x6A34A989)
+I (.\StdLib\SWM320_flash.h)(0x6A34A989)
+I (.\StdLib\SWM320_norflash.h)(0x6A34A989)
+I (.\StdLib\SWM320_sdram.h)(0x6A34A989)
+I (.\StdLib\SWM320_sram.h)(0x6A34A989)
+I (.\StdLib\SWM320_crc.h)(0x6A34A989)
+I (.\StdLib\SWM320_rtc.h)(0x6A34A989)
+I (.\StdLib\SWM320_wdt.h)(0x6A34A989)
+F (.\App\drv_uart0.c)(0x6A34A989)(--c99 -c --cpu Cortex-M4 -D__MICROLIB --li -g -O1 --apcs=interwork -I .\App -I .\CMSIS -I .\StdLib -I .\App\FreeRTOS\include -I .\App\FreeRTOS\portable\RVDS\ARM_CM3-I.\RTE\_SWM320-ID:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525"-o .\out\drv_uart0.o --omf_browse .\out\drv_uart0.crf --depend .\out\drv_uart0.d)
+I (App\drv_uart0.h)(0x6A34A989)
+I (.\CMSIS\SWM320.h)(0x6A34A989)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)
+I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5E8E3CC2)
+I (.\CMSIS\core_cm4.h)(0x6A34A989)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (.\CMSIS\core_cmInstr.h)(0x6A34A989)
+I (.\CMSIS\core_cmFunc.h)(0x6A34A989)
+I (.\CMSIS\core_cmSimd.h)(0x6A34A989)
+I (.\CMSIS\system_SWM320.h)(0x6A34A989)
+I (.\StdLib\SWM320_port.h)(0x6A34A989)
+I (.\StdLib\SWM320_gpio.h)(0x6A34A989)
+I (.\StdLib\SWM320_exti.h)(0x6A34A989)
+I (.\StdLib\SWM320_timr.h)(0x6A34A989)
+I (.\StdLib\SWM320_uart.h)(0x6A34A989)
+I (.\StdLib\SWM320_spi.h)(0x6A34A989)
+I (.\StdLib\SWM320_i2c.h)(0x6A34A989)
+I (.\StdLib\SWM320_pwm.h)(0x6A34A989)
+I (.\StdLib\SWM320_adc.h)(0x6A34A989)
+I (.\StdLib\SWM320_dma.h)(0x6A34A989)
+I (.\StdLib\SWM320_lcd.h)(0x6A34A989)
+I (.\StdLib\SWM320_can.h)(0x6A34A989)
+I (.\StdLib\SWM320_sdio.h)(0x6A34A989)
+I (.\StdLib\SWM320_flash.h)(0x6A34A989)
+I (.\StdLib\SWM320_norflash.h)(0x6A34A989)
+I (.\StdLib\SWM320_sdram.h)(0x6A34A989)
+I (.\StdLib\SWM320_sram.h)(0x6A34A989)
+I (.\StdLib\SWM320_crc.h)(0x6A34A989)
+I (.\StdLib\SWM320_rtc.h)(0x6A34A989)
+I (.\StdLib\SWM320_wdt.h)(0x6A34A989)
+I (App\loopbuf.h)(0x6A34A989)
+F (.\App\frame_parser.c)(0x6A34A98A)(--c99 -c --cpu Cortex-M4 -D__MICROLIB --li -g -O1 --apcs=interwork -I .\App -I .\CMSIS -I .\StdLib -I .\App\FreeRTOS\include -I .\App\FreeRTOS\portable\RVDS\ARM_CM3-I.\RTE\_SWM320-ID:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525"-o .\out\frame_parser.o --omf_browse .\out\frame_parser.crf --depend .\out\frame_parser.d)
+I (.\CMSIS\SWM320.h)(0x6A34A989)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)
+I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5E8E3CC2)
+I (.\CMSIS\core_cm4.h)(0x6A34A989)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (.\CMSIS\core_cmInstr.h)(0x6A34A989)
+I (.\CMSIS\core_cmFunc.h)(0x6A34A989)
+I (.\CMSIS\core_cmSimd.h)(0x6A34A989)
+I (.\CMSIS\system_SWM320.h)(0x6A34A989)
+I (.\StdLib\SWM320_port.h)(0x6A34A989)
+I (.\StdLib\SWM320_gpio.h)(0x6A34A989)
+I (.\StdLib\SWM320_exti.h)(0x6A34A989)
+I (.\StdLib\SWM320_timr.h)(0x6A34A989)
+I (.\StdLib\SWM320_uart.h)(0x6A34A989)
+I (.\StdLib\SWM320_spi.h)(0x6A34A989)
+I (.\StdLib\SWM320_i2c.h)(0x6A34A989)
+I (.\StdLib\SWM320_pwm.h)(0x6A34A989)
+I (.\StdLib\SWM320_adc.h)(0x6A34A989)
+I (.\StdLib\SWM320_dma.h)(0x6A34A989)
+I (.\StdLib\SWM320_lcd.h)(0x6A34A989)
+I (.\StdLib\SWM320_can.h)(0x6A34A989)
+I (.\StdLib\SWM320_sdio.h)(0x6A34A989)
+I (.\StdLib\SWM320_flash.h)(0x6A34A989)
+I (.\StdLib\SWM320_norflash.h)(0x6A34A989)
+I (.\StdLib\SWM320_sdram.h)(0x6A34A989)
+I (.\StdLib\SWM320_sram.h)(0x6A34A989)
+I (.\StdLib\SWM320_crc.h)(0x6A34A989)
+I (.\StdLib\SWM320_rtc.h)(0x6A34A989)
+I (.\StdLib\SWM320_wdt.h)(0x6A34A989)
+I (App\loopbuf.h)(0x6A34A989)
+I (App\drv_uart0.h)(0x6A34A989)
+I (App\frame_parser.h)(0x6A34A98A)
+I (App\io_config.h)(0x6A34A989)
+F (.\App\cmd_line.c)(0x6A34A9C3)(--c99 -c --cpu Cortex-M4 -D__MICROLIB --li -g -O1 --apcs=interwork -I .\App -I .\CMSIS -I .\StdLib -I .\App\FreeRTOS\include -I .\App\FreeRTOS\portable\RVDS\ARM_CM3-I.\RTE\_SWM320-ID:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525"-o .\out\cmd_line.o --omf_browse .\out\cmd_line.crf --depend .\out\cmd_line.d)
+I (.\CMSIS\SWM320.h)(0x6A34A989)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)
+I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5E8E3CC2)
+I (.\CMSIS\core_cm4.h)(0x6A34A989)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (.\CMSIS\core_cmInstr.h)(0x6A34A989)
+I (.\CMSIS\core_cmFunc.h)(0x6A34A989)
+I (.\CMSIS\core_cmSimd.h)(0x6A34A989)
+I (.\CMSIS\system_SWM320.h)(0x6A34A989)
+I (.\StdLib\SWM320_port.h)(0x6A34A989)
+I (.\StdLib\SWM320_gpio.h)(0x6A34A989)
+I (.\StdLib\SWM320_exti.h)(0x6A34A989)
+I (.\StdLib\SWM320_timr.h)(0x6A34A989)
+I (.\StdLib\SWM320_uart.h)(0x6A34A989)
+I (.\StdLib\SWM320_spi.h)(0x6A34A989)
+I (.\StdLib\SWM320_i2c.h)(0x6A34A989)
+I (.\StdLib\SWM320_pwm.h)(0x6A34A989)
+I (.\StdLib\SWM320_adc.h)(0x6A34A989)
+I (.\StdLib\SWM320_dma.h)(0x6A34A989)
+I (.\StdLib\SWM320_lcd.h)(0x6A34A989)
+I (.\StdLib\SWM320_can.h)(0x6A34A989)
+I (.\StdLib\SWM320_sdio.h)(0x6A34A989)
+I (.\StdLib\SWM320_flash.h)(0x6A34A989)
+I (.\StdLib\SWM320_norflash.h)(0x6A34A989)
+I (.\StdLib\SWM320_sdram.h)(0x6A34A989)
+I (.\StdLib\SWM320_sram.h)(0x6A34A989)
+I (.\StdLib\SWM320_crc.h)(0x6A34A989)
+I (.\StdLib\SWM320_rtc.h)(0x6A34A989)
+I (.\StdLib\SWM320_wdt.h)(0x6A34A989)
+I (App\loopbuf.h)(0x6A34A989)
+I (App\drv_uart0.h)(0x6A34A989)
+I (App\cmd_line.h)(0x6A34A98A)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x5E8E3CC2)
+I (.\App\io_config.h)(0x6A34A989)
+I (.\App\FreeRTOS\include\FreeRTOS.h)(0x6A34A989)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
+I (.\App\FreeRTOSConfig.h)(0x6A34A989)
+I (.\App\FreeRTOS\include\projdefs.h)(0x6A34A98A)
+I (.\App\FreeRTOS\include\portable.h)(0x6A34A98A)
+I (.\App\FreeRTOS\include\deprecated_definitions.h)(0x6A34A98A)
+I (.\App\FreeRTOS\portable\RVDS\ARM_CM3\portmacro.h)(0x6A34A989)
+I (.\App\FreeRTOS\include\mpu_wrappers.h)(0x6A34A98A)
+I (App\drvp_gpio.h)(0x6A34A991)
+I (.\App\FreeRTOS\include\task.h)(0x6A34A98A)
+I (.\App\FreeRTOS\include\list.h)(0x6A34A98A)
+F (.\App\drvp_gpio.c)(0x6A34A9AF)(--c99 -c --cpu Cortex-M4 -D__MICROLIB --li -g -O1 --apcs=interwork -I .\App -I .\CMSIS -I .\StdLib -I .\App\FreeRTOS\include -I .\App\FreeRTOS\portable\RVDS\ARM_CM3-I.\RTE\_SWM320-ID:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525"-o .\out\drvp_gpio.o --omf_browse .\out\drvp_gpio.crf --depend .\out\drvp_gpio.d)
+I (.\CMSIS\SWM320.h)(0x6A34A989)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)
+I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5E8E3CC2)
+I (.\CMSIS\core_cm4.h)(0x6A34A989)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (.\CMSIS\core_cmInstr.h)(0x6A34A989)
+I (.\CMSIS\core_cmFunc.h)(0x6A34A989)
+I (.\CMSIS\core_cmSimd.h)(0x6A34A989)
+I (.\CMSIS\system_SWM320.h)(0x6A34A989)
+I (.\StdLib\SWM320_port.h)(0x6A34A989)
+I (.\StdLib\SWM320_gpio.h)(0x6A34A989)
+I (.\StdLib\SWM320_exti.h)(0x6A34A989)
+I (.\StdLib\SWM320_timr.h)(0x6A34A989)
+I (.\StdLib\SWM320_uart.h)(0x6A34A989)
+I (.\StdLib\SWM320_spi.h)(0x6A34A989)
+I (.\StdLib\SWM320_i2c.h)(0x6A34A989)
+I (.\StdLib\SWM320_pwm.h)(0x6A34A989)
+I (.\StdLib\SWM320_adc.h)(0x6A34A989)
+I (.\StdLib\SWM320_dma.h)(0x6A34A989)
+I (.\StdLib\SWM320_lcd.h)(0x6A34A989)
+I (.\StdLib\SWM320_can.h)(0x6A34A989)
+I (.\StdLib\SWM320_sdio.h)(0x6A34A989)
+I (.\StdLib\SWM320_flash.h)(0x6A34A989)
+I (.\StdLib\SWM320_norflash.h)(0x6A34A989)
+I (.\StdLib\SWM320_sdram.h)(0x6A34A989)
+I (.\StdLib\SWM320_sram.h)(0x6A34A989)
+I (.\StdLib\SWM320_crc.h)(0x6A34A989)
+I (.\StdLib\SWM320_rtc.h)(0x6A34A989)
+I (.\StdLib\SWM320_wdt.h)(0x6A34A989)
+I (App\drvp_gpio.h)(0x6A34A991)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
+F (.\App\FreeRTOS\tasks.c)(0x6A34A989)(--c99 -c --cpu Cortex-M4 -D__MICROLIB --li -g -O1 --apcs=interwork -I .\App -I .\CMSIS -I .\StdLib -I .\App\FreeRTOS\include -I .\App\FreeRTOS\portable\RVDS\ARM_CM3-I.\RTE\_SWM320-ID:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525"-o .\out\tasks.o --omf_browse .\out\tasks.crf --depend .\out\tasks.d)
+I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E8E3CC2)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x5E8E3CC2)
+I (.\App\FreeRTOS\include\FreeRTOS.h)(0x6A34A989)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (.\App\FreeRTOSConfig.h)(0x6A34A989)
+I (.\App\FreeRTOS\include\projdefs.h)(0x6A34A98A)
+I (.\App\FreeRTOS\include\portable.h)(0x6A34A98A)
+I (.\App\FreeRTOS\include\deprecated_definitions.h)(0x6A34A98A)
+I (.\App\FreeRTOS\portable\RVDS\ARM_CM3\portmacro.h)(0x6A34A989)
+I (.\App\FreeRTOS\include\mpu_wrappers.h)(0x6A34A98A)
+I (.\App\FreeRTOS\include\task.h)(0x6A34A98A)
+I (.\App\FreeRTOS\include\list.h)(0x6A34A98A)
+I (.\App\FreeRTOS\include\timers.h)(0x6A34A98A)
+I (.\App\FreeRTOS\include\StackMacros.h)(0x6A34A98A)
+F (.\App\FreeRTOS\queue.c)(0x6A34A989)(--c99 -c --cpu Cortex-M4 -D__MICROLIB --li -g -O1 --apcs=interwork -I .\App -I .\CMSIS -I .\StdLib -I .\App\FreeRTOS\include -I .\App\FreeRTOS\portable\RVDS\ARM_CM3-I.\RTE\_SWM320-ID:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525"-o .\out\queue.o --omf_browse .\out\queue.crf --depend .\out\queue.d)
+I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E8E3CC2)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x5E8E3CC2)
+I (.\App\FreeRTOS\include\FreeRTOS.h)(0x6A34A989)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (.\App\FreeRTOSConfig.h)(0x6A34A989)
+I (.\App\FreeRTOS\include\projdefs.h)(0x6A34A98A)
+I (.\App\FreeRTOS\include\portable.h)(0x6A34A98A)
+I (.\App\FreeRTOS\include\deprecated_definitions.h)(0x6A34A98A)
+I (.\App\FreeRTOS\portable\RVDS\ARM_CM3\portmacro.h)(0x6A34A989)
+I (.\App\FreeRTOS\include\mpu_wrappers.h)(0x6A34A98A)
+I (.\App\FreeRTOS\include\task.h)(0x6A34A98A)
+I (.\App\FreeRTOS\include\list.h)(0x6A34A98A)
+I (.\App\FreeRTOS\include\queue.h)(0x6A34A98A)
+F (.\App\FreeRTOS\list.c)(0x6A34A989)(--c99 -c --cpu Cortex-M4 -D__MICROLIB --li -g -O1 --apcs=interwork -I .\App -I .\CMSIS -I .\StdLib -I .\App\FreeRTOS\include -I .\App\FreeRTOS\portable\RVDS\ARM_CM3-I.\RTE\_SWM320-ID:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525"-o .\out\list.o --omf_browse .\out\list.crf --depend .\out\list.d)
+I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E8E3CC2)
+I (.\App\FreeRTOS\include\FreeRTOS.h)(0x6A34A989)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (.\App\FreeRTOSConfig.h)(0x6A34A989)
+I (.\App\FreeRTOS\include\projdefs.h)(0x6A34A98A)
+I (.\App\FreeRTOS\include\portable.h)(0x6A34A98A)
+I (.\App\FreeRTOS\include\deprecated_definitions.h)(0x6A34A98A)
+I (.\App\FreeRTOS\portable\RVDS\ARM_CM3\portmacro.h)(0x6A34A989)
+I (.\App\FreeRTOS\include\mpu_wrappers.h)(0x6A34A98A)
+I (.\App\FreeRTOS\include\list.h)(0x6A34A98A)
+F (.\App\FreeRTOS\timers.c)(0x6A34A989)(--c99 -c --cpu Cortex-M4 -D__MICROLIB --li -g -O1 --apcs=interwork -I .\App -I .\CMSIS -I .\StdLib -I .\App\FreeRTOS\include -I .\App\FreeRTOS\portable\RVDS\ARM_CM3-I.\RTE\_SWM320-ID:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525"-o .\out\timers.o --omf_browse .\out\timers.crf --depend .\out\timers.d)
+I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E8E3CC2)
+I (.\App\FreeRTOS\include\FreeRTOS.h)(0x6A34A989)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (.\App\FreeRTOSConfig.h)(0x6A34A989)
+I (.\App\FreeRTOS\include\projdefs.h)(0x6A34A98A)
+I (.\App\FreeRTOS\include\portable.h)(0x6A34A98A)
+I (.\App\FreeRTOS\include\deprecated_definitions.h)(0x6A34A98A)
+I (.\App\FreeRTOS\portable\RVDS\ARM_CM3\portmacro.h)(0x6A34A989)
+I (.\App\FreeRTOS\include\mpu_wrappers.h)(0x6A34A98A)
+I (.\App\FreeRTOS\include\task.h)(0x6A34A98A)
+I (.\App\FreeRTOS\include\list.h)(0x6A34A98A)
+I (.\App\FreeRTOS\include\queue.h)(0x6A34A98A)
+I (.\App\FreeRTOS\include\timers.h)(0x6A34A98A)
+F (.\App\FreeRTOS\croutine.c)(0x6A34A989)(--c99 -c --cpu Cortex-M4 -D__MICROLIB --li -g -O1 --apcs=interwork -I .\App -I .\CMSIS -I .\StdLib -I .\App\FreeRTOS\include -I .\App\FreeRTOS\portable\RVDS\ARM_CM3-I.\RTE\_SWM320-ID:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525"-o .\out\croutine.o --omf_browse .\out\croutine.crf --depend .\out\croutine.d)
+I (.\App\FreeRTOS\include\FreeRTOS.h)(0x6A34A989)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (.\App\FreeRTOSConfig.h)(0x6A34A989)
+I (.\App\FreeRTOS\include\projdefs.h)(0x6A34A98A)
+I (.\App\FreeRTOS\include\portable.h)(0x6A34A98A)
+I (.\App\FreeRTOS\include\deprecated_definitions.h)(0x6A34A98A)
+I (.\App\FreeRTOS\portable\RVDS\ARM_CM3\portmacro.h)(0x6A34A989)
+I (.\App\FreeRTOS\include\mpu_wrappers.h)(0x6A34A98A)
+I (.\App\FreeRTOS\include\task.h)(0x6A34A98A)
+I (.\App\FreeRTOS\include\list.h)(0x6A34A98A)
+I (.\App\FreeRTOS\include\croutine.h)(0x6A34A98A)
+F (.\App\FreeRTOS\event_groups.c)(0x6A34A989)(--c99 -c --cpu Cortex-M4 -D__MICROLIB --li -g -O1 --apcs=interwork -I .\App -I .\CMSIS -I .\StdLib -I .\App\FreeRTOS\include -I .\App\FreeRTOS\portable\RVDS\ARM_CM3-I.\RTE\_SWM320-ID:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525"-o .\out\event_groups.o --omf_browse .\out\event_groups.crf --depend .\out\event_groups.d)
+I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E8E3CC2)
+I (.\App\FreeRTOS\include\FreeRTOS.h)(0x6A34A989)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (.\App\FreeRTOSConfig.h)(0x6A34A989)
+I (.\App\FreeRTOS\include\projdefs.h)(0x6A34A98A)
+I (.\App\FreeRTOS\include\portable.h)(0x6A34A98A)
+I (.\App\FreeRTOS\include\deprecated_definitions.h)(0x6A34A98A)
+I (.\App\FreeRTOS\portable\RVDS\ARM_CM3\portmacro.h)(0x6A34A989)
+I (.\App\FreeRTOS\include\mpu_wrappers.h)(0x6A34A98A)
+I (.\App\FreeRTOS\include\task.h)(0x6A34A98A)
+I (.\App\FreeRTOS\include\list.h)(0x6A34A98A)
+I (.\App\FreeRTOS\include\timers.h)(0x6A34A98A)
+I (.\App\FreeRTOS\include\event_groups.h)(0x6A34A98A)
+F (.\App\FreeRTOS\portable\RVDS\ARM_CM3\port.c)(0x6A34A989)(--c99 -c --cpu Cortex-M4 -D__MICROLIB --li -g -O1 --apcs=interwork -I .\App -I .\CMSIS -I .\StdLib -I .\App\FreeRTOS\include -I .\App\FreeRTOS\portable\RVDS\ARM_CM3-I.\RTE\_SWM320-ID:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525"-o .\out\port.o --omf_browse .\out\port.crf --depend .\out\port.d)
+I (.\App\FreeRTOS\include\FreeRTOS.h)(0x6A34A989)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (.\App\FreeRTOSConfig.h)(0x6A34A989)
+I (.\App\FreeRTOS\include\projdefs.h)(0x6A34A98A)
+I (.\App\FreeRTOS\include\portable.h)(0x6A34A98A)
+I (.\App\FreeRTOS\include\deprecated_definitions.h)(0x6A34A98A)
+I (.\App\FreeRTOS\portable\RVDS\ARM_CM3\portmacro.h)(0x6A34A989)
+I (.\App\FreeRTOS\include\mpu_wrappers.h)(0x6A34A98A)
+I (.\App\FreeRTOS\include\task.h)(0x6A34A98A)
+I (.\App\FreeRTOS\include\list.h)(0x6A34A98A)
+F (.\App\FreeRTOS\portable\MemMang\heap_4.c)(0x6A34A989)(--c99 -c --cpu Cortex-M4 -D__MICROLIB --li -g -O1 --apcs=interwork -I .\App -I .\CMSIS -I .\StdLib -I .\App\FreeRTOS\include -I .\App\FreeRTOS\portable\RVDS\ARM_CM3-I.\RTE\_SWM320-ID:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525"-o .\out\heap_4.o --omf_browse .\out\heap_4.crf --depend .\out\heap_4.d)
+I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E8E3CC2)
+I (.\App\FreeRTOS\include\FreeRTOS.h)(0x6A34A989)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (.\App\FreeRTOSConfig.h)(0x6A34A989)
+I (.\App\FreeRTOS\include\projdefs.h)(0x6A34A98A)
+I (.\App\FreeRTOS\include\portable.h)(0x6A34A98A)
+I (.\App\FreeRTOS\include\deprecated_definitions.h)(0x6A34A98A)
+I (.\App\FreeRTOS\portable\RVDS\ARM_CM3\portmacro.h)(0x6A34A989)
+I (.\App\FreeRTOS\include\mpu_wrappers.h)(0x6A34A98A)
+I (.\App\FreeRTOS\include\task.h)(0x6A34A98A)
+I (.\App\FreeRTOS\include\list.h)(0x6A34A98A)
+F (.\StdLib\SWM320_adc.c)(0x6A34A989)(--c99 -c --cpu Cortex-M4 -D__MICROLIB --li -g -O1 --apcs=interwork -I .\App -I .\CMSIS -I .\StdLib -I .\App\FreeRTOS\include -I .\App\FreeRTOS\portable\RVDS\ARM_CM3-I.\RTE\_SWM320-ID:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525"-o .\out\swm320_adc.o --omf_browse .\out\swm320_adc.crf --depend .\out\swm320_adc.d)
+I (.\CMSIS\SWM320.h)(0x6A34A989)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)
+I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5E8E3CC2)
+I (.\CMSIS\core_cm4.h)(0x6A34A989)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (.\CMSIS\core_cmInstr.h)(0x6A34A989)
+I (.\CMSIS\core_cmFunc.h)(0x6A34A989)
+I (.\CMSIS\core_cmSimd.h)(0x6A34A989)
+I (.\CMSIS\system_SWM320.h)(0x6A34A989)
+I (.\StdLib\SWM320_port.h)(0x6A34A989)
+I (.\StdLib\SWM320_gpio.h)(0x6A34A989)
+I (.\StdLib\SWM320_exti.h)(0x6A34A989)
+I (.\StdLib\SWM320_timr.h)(0x6A34A989)
+I (.\StdLib\SWM320_uart.h)(0x6A34A989)
+I (.\StdLib\SWM320_spi.h)(0x6A34A989)
+I (.\StdLib\SWM320_i2c.h)(0x6A34A989)
+I (.\StdLib\SWM320_pwm.h)(0x6A34A989)
+I (.\StdLib\SWM320_adc.h)(0x6A34A989)
+I (.\StdLib\SWM320_dma.h)(0x6A34A989)
+I (.\StdLib\SWM320_lcd.h)(0x6A34A989)
+I (.\StdLib\SWM320_can.h)(0x6A34A989)
+I (.\StdLib\SWM320_sdio.h)(0x6A34A989)
+I (.\StdLib\SWM320_flash.h)(0x6A34A989)
+I (.\StdLib\SWM320_norflash.h)(0x6A34A989)
+I (.\StdLib\SWM320_sdram.h)(0x6A34A989)
+I (.\StdLib\SWM320_sram.h)(0x6A34A989)
+I (.\StdLib\SWM320_crc.h)(0x6A34A989)
+I (.\StdLib\SWM320_rtc.h)(0x6A34A989)
+I (.\StdLib\SWM320_wdt.h)(0x6A34A989)
+F (.\StdLib\SWM320_exti.c)(0x6A34A989)(--c99 -c --cpu Cortex-M4 -D__MICROLIB --li -g -O1 --apcs=interwork -I .\App -I .\CMSIS -I .\StdLib -I .\App\FreeRTOS\include -I .\App\FreeRTOS\portable\RVDS\ARM_CM3-I.\RTE\_SWM320-ID:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525"-o .\out\swm320_exti.o --omf_browse .\out\swm320_exti.crf --depend .\out\swm320_exti.d)
+I (.\CMSIS\SWM320.h)(0x6A34A989)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)
+I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5E8E3CC2)
+I (.\CMSIS\core_cm4.h)(0x6A34A989)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (.\CMSIS\core_cmInstr.h)(0x6A34A989)
+I (.\CMSIS\core_cmFunc.h)(0x6A34A989)
+I (.\CMSIS\core_cmSimd.h)(0x6A34A989)
+I (.\CMSIS\system_SWM320.h)(0x6A34A989)
+I (.\StdLib\SWM320_port.h)(0x6A34A989)
+I (.\StdLib\SWM320_gpio.h)(0x6A34A989)
+I (.\StdLib\SWM320_exti.h)(0x6A34A989)
+I (.\StdLib\SWM320_timr.h)(0x6A34A989)
+I (.\StdLib\SWM320_uart.h)(0x6A34A989)
+I (.\StdLib\SWM320_spi.h)(0x6A34A989)
+I (.\StdLib\SWM320_i2c.h)(0x6A34A989)
+I (.\StdLib\SWM320_pwm.h)(0x6A34A989)
+I (.\StdLib\SWM320_adc.h)(0x6A34A989)
+I (.\StdLib\SWM320_dma.h)(0x6A34A989)
+I (.\StdLib\SWM320_lcd.h)(0x6A34A989)
+I (.\StdLib\SWM320_can.h)(0x6A34A989)
+I (.\StdLib\SWM320_sdio.h)(0x6A34A989)
+I (.\StdLib\SWM320_flash.h)(0x6A34A989)
+I (.\StdLib\SWM320_norflash.h)(0x6A34A989)
+I (.\StdLib\SWM320_sdram.h)(0x6A34A989)
+I (.\StdLib\SWM320_sram.h)(0x6A34A989)
+I (.\StdLib\SWM320_crc.h)(0x6A34A989)
+I (.\StdLib\SWM320_rtc.h)(0x6A34A989)
+I (.\StdLib\SWM320_wdt.h)(0x6A34A989)
+F (.\StdLib\SWM320_gpio.c)(0x6A34A989)(--c99 -c --cpu Cortex-M4 -D__MICROLIB --li -g -O1 --apcs=interwork -I .\App -I .\CMSIS -I .\StdLib -I .\App\FreeRTOS\include -I .\App\FreeRTOS\portable\RVDS\ARM_CM3-I.\RTE\_SWM320-ID:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525"-o .\out\swm320_gpio.o --omf_browse .\out\swm320_gpio.crf --depend .\out\swm320_gpio.d)
+I (.\CMSIS\SWM320.h)(0x6A34A989)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)
+I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5E8E3CC2)
+I (.\CMSIS\core_cm4.h)(0x6A34A989)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (.\CMSIS\core_cmInstr.h)(0x6A34A989)
+I (.\CMSIS\core_cmFunc.h)(0x6A34A989)
+I (.\CMSIS\core_cmSimd.h)(0x6A34A989)
+I (.\CMSIS\system_SWM320.h)(0x6A34A989)
+I (.\StdLib\SWM320_port.h)(0x6A34A989)
+I (.\StdLib\SWM320_gpio.h)(0x6A34A989)
+I (.\StdLib\SWM320_exti.h)(0x6A34A989)
+I (.\StdLib\SWM320_timr.h)(0x6A34A989)
+I (.\StdLib\SWM320_uart.h)(0x6A34A989)
+I (.\StdLib\SWM320_spi.h)(0x6A34A989)
+I (.\StdLib\SWM320_i2c.h)(0x6A34A989)
+I (.\StdLib\SWM320_pwm.h)(0x6A34A989)
+I (.\StdLib\SWM320_adc.h)(0x6A34A989)
+I (.\StdLib\SWM320_dma.h)(0x6A34A989)
+I (.\StdLib\SWM320_lcd.h)(0x6A34A989)
+I (.\StdLib\SWM320_can.h)(0x6A34A989)
+I (.\StdLib\SWM320_sdio.h)(0x6A34A989)
+I (.\StdLib\SWM320_flash.h)(0x6A34A989)
+I (.\StdLib\SWM320_norflash.h)(0x6A34A989)
+I (.\StdLib\SWM320_sdram.h)(0x6A34A989)
+I (.\StdLib\SWM320_sram.h)(0x6A34A989)
+I (.\StdLib\SWM320_crc.h)(0x6A34A989)
+I (.\StdLib\SWM320_rtc.h)(0x6A34A989)
+I (.\StdLib\SWM320_wdt.h)(0x6A34A989)
+F (.\StdLib\SWM320_i2c.c)(0x6A34A989)(--c99 -c --cpu Cortex-M4 -D__MICROLIB --li -g -O1 --apcs=interwork -I .\App -I .\CMSIS -I .\StdLib -I .\App\FreeRTOS\include -I .\App\FreeRTOS\portable\RVDS\ARM_CM3-I.\RTE\_SWM320-ID:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525"-o .\out\swm320_i2c.o --omf_browse .\out\swm320_i2c.crf --depend .\out\swm320_i2c.d)
+I (.\CMSIS\SWM320.h)(0x6A34A989)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)
+I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5E8E3CC2)
+I (.\CMSIS\core_cm4.h)(0x6A34A989)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (.\CMSIS\core_cmInstr.h)(0x6A34A989)
+I (.\CMSIS\core_cmFunc.h)(0x6A34A989)
+I (.\CMSIS\core_cmSimd.h)(0x6A34A989)
+I (.\CMSIS\system_SWM320.h)(0x6A34A989)
+I (.\StdLib\SWM320_port.h)(0x6A34A989)
+I (.\StdLib\SWM320_gpio.h)(0x6A34A989)
+I (.\StdLib\SWM320_exti.h)(0x6A34A989)
+I (.\StdLib\SWM320_timr.h)(0x6A34A989)
+I (.\StdLib\SWM320_uart.h)(0x6A34A989)
+I (.\StdLib\SWM320_spi.h)(0x6A34A989)
+I (.\StdLib\SWM320_i2c.h)(0x6A34A989)
+I (.\StdLib\SWM320_pwm.h)(0x6A34A989)
+I (.\StdLib\SWM320_adc.h)(0x6A34A989)
+I (.\StdLib\SWM320_dma.h)(0x6A34A989)
+I (.\StdLib\SWM320_lcd.h)(0x6A34A989)
+I (.\StdLib\SWM320_can.h)(0x6A34A989)
+I (.\StdLib\SWM320_sdio.h)(0x6A34A989)
+I (.\StdLib\SWM320_flash.h)(0x6A34A989)
+I (.\StdLib\SWM320_norflash.h)(0x6A34A989)
+I (.\StdLib\SWM320_sdram.h)(0x6A34A989)
+I (.\StdLib\SWM320_sram.h)(0x6A34A989)
+I (.\StdLib\SWM320_crc.h)(0x6A34A989)
+I (.\StdLib\SWM320_rtc.h)(0x6A34A989)
+I (.\StdLib\SWM320_wdt.h)(0x6A34A989)
+F (.\StdLib\SWM320_pwm.c)(0x6A34A989)(--c99 -c --cpu Cortex-M4 -D__MICROLIB --li -g -O1 --apcs=interwork -I .\App -I .\CMSIS -I .\StdLib -I .\App\FreeRTOS\include -I .\App\FreeRTOS\portable\RVDS\ARM_CM3-I.\RTE\_SWM320-ID:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525"-o .\out\swm320_pwm.o --omf_browse .\out\swm320_pwm.crf --depend .\out\swm320_pwm.d)
+I (.\CMSIS\SWM320.h)(0x6A34A989)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)
+I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5E8E3CC2)
+I (.\CMSIS\core_cm4.h)(0x6A34A989)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (.\CMSIS\core_cmInstr.h)(0x6A34A989)
+I (.\CMSIS\core_cmFunc.h)(0x6A34A989)
+I (.\CMSIS\core_cmSimd.h)(0x6A34A989)
+I (.\CMSIS\system_SWM320.h)(0x6A34A989)
+I (.\StdLib\SWM320_port.h)(0x6A34A989)
+I (.\StdLib\SWM320_gpio.h)(0x6A34A989)
+I (.\StdLib\SWM320_exti.h)(0x6A34A989)
+I (.\StdLib\SWM320_timr.h)(0x6A34A989)
+I (.\StdLib\SWM320_uart.h)(0x6A34A989)
+I (.\StdLib\SWM320_spi.h)(0x6A34A989)
+I (.\StdLib\SWM320_i2c.h)(0x6A34A989)
+I (.\StdLib\SWM320_pwm.h)(0x6A34A989)
+I (.\StdLib\SWM320_adc.h)(0x6A34A989)
+I (.\StdLib\SWM320_dma.h)(0x6A34A989)
+I (.\StdLib\SWM320_lcd.h)(0x6A34A989)
+I (.\StdLib\SWM320_can.h)(0x6A34A989)
+I (.\StdLib\SWM320_sdio.h)(0x6A34A989)
+I (.\StdLib\SWM320_flash.h)(0x6A34A989)
+I (.\StdLib\SWM320_norflash.h)(0x6A34A989)
+I (.\StdLib\SWM320_sdram.h)(0x6A34A989)
+I (.\StdLib\SWM320_sram.h)(0x6A34A989)
+I (.\StdLib\SWM320_crc.h)(0x6A34A989)
+I (.\StdLib\SWM320_rtc.h)(0x6A34A989)
+I (.\StdLib\SWM320_wdt.h)(0x6A34A989)
+F (.\StdLib\SWM320_timr.c)(0x6A34A989)(--c99 -c --cpu Cortex-M4 -D__MICROLIB --li -g -O1 --apcs=interwork -I .\App -I .\CMSIS -I .\StdLib -I .\App\FreeRTOS\include -I .\App\FreeRTOS\portable\RVDS\ARM_CM3-I.\RTE\_SWM320-ID:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525"-o .\out\swm320_timr.o --omf_browse .\out\swm320_timr.crf --depend .\out\swm320_timr.d)
+I (.\CMSIS\SWM320.h)(0x6A34A989)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)
+I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5E8E3CC2)
+I (.\CMSIS\core_cm4.h)(0x6A34A989)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (.\CMSIS\core_cmInstr.h)(0x6A34A989)
+I (.\CMSIS\core_cmFunc.h)(0x6A34A989)
+I (.\CMSIS\core_cmSimd.h)(0x6A34A989)
+I (.\CMSIS\system_SWM320.h)(0x6A34A989)
+I (.\StdLib\SWM320_port.h)(0x6A34A989)
+I (.\StdLib\SWM320_gpio.h)(0x6A34A989)
+I (.\StdLib\SWM320_exti.h)(0x6A34A989)
+I (.\StdLib\SWM320_timr.h)(0x6A34A989)
+I (.\StdLib\SWM320_uart.h)(0x6A34A989)
+I (.\StdLib\SWM320_spi.h)(0x6A34A989)
+I (.\StdLib\SWM320_i2c.h)(0x6A34A989)
+I (.\StdLib\SWM320_pwm.h)(0x6A34A989)
+I (.\StdLib\SWM320_adc.h)(0x6A34A989)
+I (.\StdLib\SWM320_dma.h)(0x6A34A989)
+I (.\StdLib\SWM320_lcd.h)(0x6A34A989)
+I (.\StdLib\SWM320_can.h)(0x6A34A989)
+I (.\StdLib\SWM320_sdio.h)(0x6A34A989)
+I (.\StdLib\SWM320_flash.h)(0x6A34A989)
+I (.\StdLib\SWM320_norflash.h)(0x6A34A989)
+I (.\StdLib\SWM320_sdram.h)(0x6A34A989)
+I (.\StdLib\SWM320_sram.h)(0x6A34A989)
+I (.\StdLib\SWM320_crc.h)(0x6A34A989)
+I (.\StdLib\SWM320_rtc.h)(0x6A34A989)
+I (.\StdLib\SWM320_wdt.h)(0x6A34A989)
+F (.\StdLib\SWM320_wdt.c)(0x6A34A989)(--c99 -c --cpu Cortex-M4 -D__MICROLIB --li -g -O1 --apcs=interwork -I .\App -I .\CMSIS -I .\StdLib -I .\App\FreeRTOS\include -I .\App\FreeRTOS\portable\RVDS\ARM_CM3-I.\RTE\_SWM320-ID:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525"-o .\out\swm320_wdt.o --omf_browse .\out\swm320_wdt.crf --depend .\out\swm320_wdt.d)
+I (.\CMSIS\SWM320.h)(0x6A34A989)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)
+I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5E8E3CC2)
+I (.\CMSIS\core_cm4.h)(0x6A34A989)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (.\CMSIS\core_cmInstr.h)(0x6A34A989)
+I (.\CMSIS\core_cmFunc.h)(0x6A34A989)
+I (.\CMSIS\core_cmSimd.h)(0x6A34A989)
+I (.\CMSIS\system_SWM320.h)(0x6A34A989)
+I (.\StdLib\SWM320_port.h)(0x6A34A989)
+I (.\StdLib\SWM320_gpio.h)(0x6A34A989)
+I (.\StdLib\SWM320_exti.h)(0x6A34A989)
+I (.\StdLib\SWM320_timr.h)(0x6A34A989)
+I (.\StdLib\SWM320_uart.h)(0x6A34A989)
+I (.\StdLib\SWM320_spi.h)(0x6A34A989)
+I (.\StdLib\SWM320_i2c.h)(0x6A34A989)
+I (.\StdLib\SWM320_pwm.h)(0x6A34A989)
+I (.\StdLib\SWM320_adc.h)(0x6A34A989)
+I (.\StdLib\SWM320_dma.h)(0x6A34A989)
+I (.\StdLib\SWM320_lcd.h)(0x6A34A989)
+I (.\StdLib\SWM320_can.h)(0x6A34A989)
+I (.\StdLib\SWM320_sdio.h)(0x6A34A989)
+I (.\StdLib\SWM320_flash.h)(0x6A34A989)
+I (.\StdLib\SWM320_norflash.h)(0x6A34A989)
+I (.\StdLib\SWM320_sdram.h)(0x6A34A989)
+I (.\StdLib\SWM320_sram.h)(0x6A34A989)
+I (.\StdLib\SWM320_crc.h)(0x6A34A989)
+I (.\StdLib\SWM320_rtc.h)(0x6A34A989)
+I (.\StdLib\SWM320_wdt.h)(0x6A34A989)
+F (.\StdLib\SWM320_dma.c)(0x6A34A989)(--c99 -c --cpu Cortex-M4 -D__MICROLIB --li -g -O1 --apcs=interwork -I .\App -I .\CMSIS -I .\StdLib -I .\App\FreeRTOS\include -I .\App\FreeRTOS\portable\RVDS\ARM_CM3-I.\RTE\_SWM320-ID:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525"-o .\out\swm320_dma.o --omf_browse .\out\swm320_dma.crf --depend .\out\swm320_dma.d)
+I (.\CMSIS\SWM320.h)(0x6A34A989)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)
+I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5E8E3CC2)
+I (.\CMSIS\core_cm4.h)(0x6A34A989)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (.\CMSIS\core_cmInstr.h)(0x6A34A989)
+I (.\CMSIS\core_cmFunc.h)(0x6A34A989)
+I (.\CMSIS\core_cmSimd.h)(0x6A34A989)
+I (.\CMSIS\system_SWM320.h)(0x6A34A989)
+I (.\StdLib\SWM320_port.h)(0x6A34A989)
+I (.\StdLib\SWM320_gpio.h)(0x6A34A989)
+I (.\StdLib\SWM320_exti.h)(0x6A34A989)
+I (.\StdLib\SWM320_timr.h)(0x6A34A989)
+I (.\StdLib\SWM320_uart.h)(0x6A34A989)
+I (.\StdLib\SWM320_spi.h)(0x6A34A989)
+I (.\StdLib\SWM320_i2c.h)(0x6A34A989)
+I (.\StdLib\SWM320_pwm.h)(0x6A34A989)
+I (.\StdLib\SWM320_adc.h)(0x6A34A989)
+I (.\StdLib\SWM320_dma.h)(0x6A34A989)
+I (.\StdLib\SWM320_lcd.h)(0x6A34A989)
+I (.\StdLib\SWM320_can.h)(0x6A34A989)
+I (.\StdLib\SWM320_sdio.h)(0x6A34A989)
+I (.\StdLib\SWM320_flash.h)(0x6A34A989)
+I (.\StdLib\SWM320_norflash.h)(0x6A34A989)
+I (.\StdLib\SWM320_sdram.h)(0x6A34A989)
+I (.\StdLib\SWM320_sram.h)(0x6A34A989)
+I (.\StdLib\SWM320_crc.h)(0x6A34A989)
+I (.\StdLib\SWM320_rtc.h)(0x6A34A989)
+I (.\StdLib\SWM320_wdt.h)(0x6A34A989)
+F (.\StdLib\SWM320_flash.c)(0x6A34A989)(--c99 -c --cpu Cortex-M4 -D__MICROLIB --li -g -O1 --apcs=interwork -I .\App -I .\CMSIS -I .\StdLib -I .\App\FreeRTOS\include -I .\App\FreeRTOS\portable\RVDS\ARM_CM3-I.\RTE\_SWM320-ID:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525"-o .\out\swm320_flash.o --omf_browse .\out\swm320_flash.crf --depend .\out\swm320_flash.d)
+I (.\CMSIS\SWM320.h)(0x6A34A989)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)
+I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5E8E3CC2)
+I (.\CMSIS\core_cm4.h)(0x6A34A989)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (.\CMSIS\core_cmInstr.h)(0x6A34A989)
+I (.\CMSIS\core_cmFunc.h)(0x6A34A989)
+I (.\CMSIS\core_cmSimd.h)(0x6A34A989)
+I (.\CMSIS\system_SWM320.h)(0x6A34A989)
+I (.\StdLib\SWM320_port.h)(0x6A34A989)
+I (.\StdLib\SWM320_gpio.h)(0x6A34A989)
+I (.\StdLib\SWM320_exti.h)(0x6A34A989)
+I (.\StdLib\SWM320_timr.h)(0x6A34A989)
+I (.\StdLib\SWM320_uart.h)(0x6A34A989)
+I (.\StdLib\SWM320_spi.h)(0x6A34A989)
+I (.\StdLib\SWM320_i2c.h)(0x6A34A989)
+I (.\StdLib\SWM320_pwm.h)(0x6A34A989)
+I (.\StdLib\SWM320_adc.h)(0x6A34A989)
+I (.\StdLib\SWM320_dma.h)(0x6A34A989)
+I (.\StdLib\SWM320_lcd.h)(0x6A34A989)
+I (.\StdLib\SWM320_can.h)(0x6A34A989)
+I (.\StdLib\SWM320_sdio.h)(0x6A34A989)
+I (.\StdLib\SWM320_flash.h)(0x6A34A989)
+I (.\StdLib\SWM320_norflash.h)(0x6A34A989)
+I (.\StdLib\SWM320_sdram.h)(0x6A34A989)
+I (.\StdLib\SWM320_sram.h)(0x6A34A989)
+I (.\StdLib\SWM320_crc.h)(0x6A34A989)
+I (.\StdLib\SWM320_rtc.h)(0x6A34A989)
+I (.\StdLib\SWM320_wdt.h)(0x6A34A989)
+F (.\StdLib\SWM320_port.c)(0x6A34A989)(--c99 -c --cpu Cortex-M4 -D__MICROLIB --li -g -O1 --apcs=interwork -I .\App -I .\CMSIS -I .\StdLib -I .\App\FreeRTOS\include -I .\App\FreeRTOS\portable\RVDS\ARM_CM3-I.\RTE\_SWM320-ID:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525"-o .\out\swm320_port.o --omf_browse .\out\swm320_port.crf --depend .\out\swm320_port.d)
+I (.\CMSIS\SWM320.h)(0x6A34A989)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)
+I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5E8E3CC2)
+I (.\CMSIS\core_cm4.h)(0x6A34A989)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (.\CMSIS\core_cmInstr.h)(0x6A34A989)
+I (.\CMSIS\core_cmFunc.h)(0x6A34A989)
+I (.\CMSIS\core_cmSimd.h)(0x6A34A989)
+I (.\CMSIS\system_SWM320.h)(0x6A34A989)
+I (.\StdLib\SWM320_port.h)(0x6A34A989)
+I (.\StdLib\SWM320_gpio.h)(0x6A34A989)
+I (.\StdLib\SWM320_exti.h)(0x6A34A989)
+I (.\StdLib\SWM320_timr.h)(0x6A34A989)
+I (.\StdLib\SWM320_uart.h)(0x6A34A989)
+I (.\StdLib\SWM320_spi.h)(0x6A34A989)
+I (.\StdLib\SWM320_i2c.h)(0x6A34A989)
+I (.\StdLib\SWM320_pwm.h)(0x6A34A989)
+I (.\StdLib\SWM320_adc.h)(0x6A34A989)
+I (.\StdLib\SWM320_dma.h)(0x6A34A989)
+I (.\StdLib\SWM320_lcd.h)(0x6A34A989)
+I (.\StdLib\SWM320_can.h)(0x6A34A989)
+I (.\StdLib\SWM320_sdio.h)(0x6A34A989)
+I (.\StdLib\SWM320_flash.h)(0x6A34A989)
+I (.\StdLib\SWM320_norflash.h)(0x6A34A989)
+I (.\StdLib\SWM320_sdram.h)(0x6A34A989)
+I (.\StdLib\SWM320_sram.h)(0x6A34A989)
+I (.\StdLib\SWM320_crc.h)(0x6A34A989)
+I (.\StdLib\SWM320_rtc.h)(0x6A34A989)
+I (.\StdLib\SWM320_wdt.h)(0x6A34A989)
+F (.\StdLib\SWM320_spi.c)(0x6A34A989)(--c99 -c --cpu Cortex-M4 -D__MICROLIB --li -g -O1 --apcs=interwork -I .\App -I .\CMSIS -I .\StdLib -I .\App\FreeRTOS\include -I .\App\FreeRTOS\portable\RVDS\ARM_CM3-I.\RTE\_SWM320-ID:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525"-o .\out\swm320_spi.o --omf_browse .\out\swm320_spi.crf --depend .\out\swm320_spi.d)
+I (.\CMSIS\SWM320.h)(0x6A34A989)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)
+I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5E8E3CC2)
+I (.\CMSIS\core_cm4.h)(0x6A34A989)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (.\CMSIS\core_cmInstr.h)(0x6A34A989)
+I (.\CMSIS\core_cmFunc.h)(0x6A34A989)
+I (.\CMSIS\core_cmSimd.h)(0x6A34A989)
+I (.\CMSIS\system_SWM320.h)(0x6A34A989)
+I (.\StdLib\SWM320_port.h)(0x6A34A989)
+I (.\StdLib\SWM320_gpio.h)(0x6A34A989)
+I (.\StdLib\SWM320_exti.h)(0x6A34A989)
+I (.\StdLib\SWM320_timr.h)(0x6A34A989)
+I (.\StdLib\SWM320_uart.h)(0x6A34A989)
+I (.\StdLib\SWM320_spi.h)(0x6A34A989)
+I (.\StdLib\SWM320_i2c.h)(0x6A34A989)
+I (.\StdLib\SWM320_pwm.h)(0x6A34A989)
+I (.\StdLib\SWM320_adc.h)(0x6A34A989)
+I (.\StdLib\SWM320_dma.h)(0x6A34A989)
+I (.\StdLib\SWM320_lcd.h)(0x6A34A989)
+I (.\StdLib\SWM320_can.h)(0x6A34A989)
+I (.\StdLib\SWM320_sdio.h)(0x6A34A989)
+I (.\StdLib\SWM320_flash.h)(0x6A34A989)
+I (.\StdLib\SWM320_norflash.h)(0x6A34A989)
+I (.\StdLib\SWM320_sdram.h)(0x6A34A989)
+I (.\StdLib\SWM320_sram.h)(0x6A34A989)
+I (.\StdLib\SWM320_crc.h)(0x6A34A989)
+I (.\StdLib\SWM320_rtc.h)(0x6A34A989)
+I (.\StdLib\SWM320_wdt.h)(0x6A34A989)
+F (.\StdLib\SWM320_can.c)(0x6A34A989)(--c99 -c --cpu Cortex-M4 -D__MICROLIB --li -g -O1 --apcs=interwork -I .\App -I .\CMSIS -I .\StdLib -I .\App\FreeRTOS\include -I .\App\FreeRTOS\portable\RVDS\ARM_CM3-I.\RTE\_SWM320-ID:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525"-o .\out\swm320_can.o --omf_browse .\out\swm320_can.crf --depend .\out\swm320_can.d)
+I (.\CMSIS\SWM320.h)(0x6A34A989)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)
+I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5E8E3CC2)
+I (.\CMSIS\core_cm4.h)(0x6A34A989)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (.\CMSIS\core_cmInstr.h)(0x6A34A989)
+I (.\CMSIS\core_cmFunc.h)(0x6A34A989)
+I (.\CMSIS\core_cmSimd.h)(0x6A34A989)
+I (.\CMSIS\system_SWM320.h)(0x6A34A989)
+I (.\StdLib\SWM320_port.h)(0x6A34A989)
+I (.\StdLib\SWM320_gpio.h)(0x6A34A989)
+I (.\StdLib\SWM320_exti.h)(0x6A34A989)
+I (.\StdLib\SWM320_timr.h)(0x6A34A989)
+I (.\StdLib\SWM320_uart.h)(0x6A34A989)
+I (.\StdLib\SWM320_spi.h)(0x6A34A989)
+I (.\StdLib\SWM320_i2c.h)(0x6A34A989)
+I (.\StdLib\SWM320_pwm.h)(0x6A34A989)
+I (.\StdLib\SWM320_adc.h)(0x6A34A989)
+I (.\StdLib\SWM320_dma.h)(0x6A34A989)
+I (.\StdLib\SWM320_lcd.h)(0x6A34A989)
+I (.\StdLib\SWM320_can.h)(0x6A34A989)
+I (.\StdLib\SWM320_sdio.h)(0x6A34A989)
+I (.\StdLib\SWM320_flash.h)(0x6A34A989)
+I (.\StdLib\SWM320_norflash.h)(0x6A34A989)
+I (.\StdLib\SWM320_sdram.h)(0x6A34A989)
+I (.\StdLib\SWM320_sram.h)(0x6A34A989)
+I (.\StdLib\SWM320_crc.h)(0x6A34A989)
+I (.\StdLib\SWM320_rtc.h)(0x6A34A989)
+I (.\StdLib\SWM320_wdt.h)(0x6A34A989)
+F (.\StdLib\SWM320_crc.c)(0x6A34A989)(--c99 -c --cpu Cortex-M4 -D__MICROLIB --li -g -O1 --apcs=interwork -I .\App -I .\CMSIS -I .\StdLib -I .\App\FreeRTOS\include -I .\App\FreeRTOS\portable\RVDS\ARM_CM3-I.\RTE\_SWM320-ID:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525"-o .\out\swm320_crc.o --omf_browse .\out\swm320_crc.crf --depend .\out\swm320_crc.d)
+I (.\CMSIS\SWM320.h)(0x6A34A989)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)
+I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5E8E3CC2)
+I (.\CMSIS\core_cm4.h)(0x6A34A989)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (.\CMSIS\core_cmInstr.h)(0x6A34A989)
+I (.\CMSIS\core_cmFunc.h)(0x6A34A989)
+I (.\CMSIS\core_cmSimd.h)(0x6A34A989)
+I (.\CMSIS\system_SWM320.h)(0x6A34A989)
+I (.\StdLib\SWM320_port.h)(0x6A34A989)
+I (.\StdLib\SWM320_gpio.h)(0x6A34A989)
+I (.\StdLib\SWM320_exti.h)(0x6A34A989)
+I (.\StdLib\SWM320_timr.h)(0x6A34A989)
+I (.\StdLib\SWM320_uart.h)(0x6A34A989)
+I (.\StdLib\SWM320_spi.h)(0x6A34A989)
+I (.\StdLib\SWM320_i2c.h)(0x6A34A989)
+I (.\StdLib\SWM320_pwm.h)(0x6A34A989)
+I (.\StdLib\SWM320_adc.h)(0x6A34A989)
+I (.\StdLib\SWM320_dma.h)(0x6A34A989)
+I (.\StdLib\SWM320_lcd.h)(0x6A34A989)
+I (.\StdLib\SWM320_can.h)(0x6A34A989)
+I (.\StdLib\SWM320_sdio.h)(0x6A34A989)
+I (.\StdLib\SWM320_flash.h)(0x6A34A989)
+I (.\StdLib\SWM320_norflash.h)(0x6A34A989)
+I (.\StdLib\SWM320_sdram.h)(0x6A34A989)
+I (.\StdLib\SWM320_sram.h)(0x6A34A989)
+I (.\StdLib\SWM320_crc.h)(0x6A34A989)
+I (.\StdLib\SWM320_rtc.h)(0x6A34A989)
+I (.\StdLib\SWM320_wdt.h)(0x6A34A989)
+F (.\StdLib\SWM320_lcd.c)(0x6A34A989)(--c99 -c --cpu Cortex-M4 -D__MICROLIB --li -g -O1 --apcs=interwork -I .\App -I .\CMSIS -I .\StdLib -I .\App\FreeRTOS\include -I .\App\FreeRTOS\portable\RVDS\ARM_CM3-I.\RTE\_SWM320-ID:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525"-o .\out\swm320_lcd.o --omf_browse .\out\swm320_lcd.crf --depend .\out\swm320_lcd.d)
+I (.\CMSIS\SWM320.h)(0x6A34A989)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)
+I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5E8E3CC2)
+I (.\CMSIS\core_cm4.h)(0x6A34A989)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (.\CMSIS\core_cmInstr.h)(0x6A34A989)
+I (.\CMSIS\core_cmFunc.h)(0x6A34A989)
+I (.\CMSIS\core_cmSimd.h)(0x6A34A989)
+I (.\CMSIS\system_SWM320.h)(0x6A34A989)
+I (.\StdLib\SWM320_port.h)(0x6A34A989)
+I (.\StdLib\SWM320_gpio.h)(0x6A34A989)
+I (.\StdLib\SWM320_exti.h)(0x6A34A989)
+I (.\StdLib\SWM320_timr.h)(0x6A34A989)
+I (.\StdLib\SWM320_uart.h)(0x6A34A989)
+I (.\StdLib\SWM320_spi.h)(0x6A34A989)
+I (.\StdLib\SWM320_i2c.h)(0x6A34A989)
+I (.\StdLib\SWM320_pwm.h)(0x6A34A989)
+I (.\StdLib\SWM320_adc.h)(0x6A34A989)
+I (.\StdLib\SWM320_dma.h)(0x6A34A989)
+I (.\StdLib\SWM320_lcd.h)(0x6A34A989)
+I (.\StdLib\SWM320_can.h)(0x6A34A989)
+I (.\StdLib\SWM320_sdio.h)(0x6A34A989)
+I (.\StdLib\SWM320_flash.h)(0x6A34A989)
+I (.\StdLib\SWM320_norflash.h)(0x6A34A989)
+I (.\StdLib\SWM320_sdram.h)(0x6A34A989)
+I (.\StdLib\SWM320_sram.h)(0x6A34A989)
+I (.\StdLib\SWM320_crc.h)(0x6A34A989)
+I (.\StdLib\SWM320_rtc.h)(0x6A34A989)
+I (.\StdLib\SWM320_wdt.h)(0x6A34A989)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x5E8E3CC2)
+F (.\StdLib\SWM320_rtc.c)(0x6A34A989)(--c99 -c --cpu Cortex-M4 -D__MICROLIB --li -g -O1 --apcs=interwork -I .\App -I .\CMSIS -I .\StdLib -I .\App\FreeRTOS\include -I .\App\FreeRTOS\portable\RVDS\ARM_CM3-I.\RTE\_SWM320-ID:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525"-o .\out\swm320_rtc.o --omf_browse .\out\swm320_rtc.crf --depend .\out\swm320_rtc.d)
+I (.\CMSIS\SWM320.h)(0x6A34A989)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)
+I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5E8E3CC2)
+I (.\CMSIS\core_cm4.h)(0x6A34A989)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (.\CMSIS\core_cmInstr.h)(0x6A34A989)
+I (.\CMSIS\core_cmFunc.h)(0x6A34A989)
+I (.\CMSIS\core_cmSimd.h)(0x6A34A989)
+I (.\CMSIS\system_SWM320.h)(0x6A34A989)
+I (.\StdLib\SWM320_port.h)(0x6A34A989)
+I (.\StdLib\SWM320_gpio.h)(0x6A34A989)
+I (.\StdLib\SWM320_exti.h)(0x6A34A989)
+I (.\StdLib\SWM320_timr.h)(0x6A34A989)
+I (.\StdLib\SWM320_uart.h)(0x6A34A989)
+I (.\StdLib\SWM320_spi.h)(0x6A34A989)
+I (.\StdLib\SWM320_i2c.h)(0x6A34A989)
+I (.\StdLib\SWM320_pwm.h)(0x6A34A989)
+I (.\StdLib\SWM320_adc.h)(0x6A34A989)
+I (.\StdLib\SWM320_dma.h)(0x6A34A989)
+I (.\StdLib\SWM320_lcd.h)(0x6A34A989)
+I (.\StdLib\SWM320_can.h)(0x6A34A989)
+I (.\StdLib\SWM320_sdio.h)(0x6A34A989)
+I (.\StdLib\SWM320_flash.h)(0x6A34A989)
+I (.\StdLib\SWM320_norflash.h)(0x6A34A989)
+I (.\StdLib\SWM320_sdram.h)(0x6A34A989)
+I (.\StdLib\SWM320_sram.h)(0x6A34A989)
+I (.\StdLib\SWM320_crc.h)(0x6A34A989)
+I (.\StdLib\SWM320_rtc.h)(0x6A34A989)
+I (.\StdLib\SWM320_wdt.h)(0x6A34A989)
+F (.\StdLib\SWM320_sdio.c)(0x6A34A989)(--c99 -c --cpu Cortex-M4 -D__MICROLIB --li -g -O1 --apcs=interwork -I .\App -I .\CMSIS -I .\StdLib -I .\App\FreeRTOS\include -I .\App\FreeRTOS\portable\RVDS\ARM_CM3-I.\RTE\_SWM320-ID:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525"-o .\out\swm320_sdio.o --omf_browse .\out\swm320_sdio.crf --depend .\out\swm320_sdio.d)
+I (.\CMSIS\SWM320.h)(0x6A34A989)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)
+I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5E8E3CC2)
+I (.\CMSIS\core_cm4.h)(0x6A34A989)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (.\CMSIS\core_cmInstr.h)(0x6A34A989)
+I (.\CMSIS\core_cmFunc.h)(0x6A34A989)
+I (.\CMSIS\core_cmSimd.h)(0x6A34A989)
+I (.\CMSIS\system_SWM320.h)(0x6A34A989)
+I (.\StdLib\SWM320_port.h)(0x6A34A989)
+I (.\StdLib\SWM320_gpio.h)(0x6A34A989)
+I (.\StdLib\SWM320_exti.h)(0x6A34A989)
+I (.\StdLib\SWM320_timr.h)(0x6A34A989)
+I (.\StdLib\SWM320_uart.h)(0x6A34A989)
+I (.\StdLib\SWM320_spi.h)(0x6A34A989)
+I (.\StdLib\SWM320_i2c.h)(0x6A34A989)
+I (.\StdLib\SWM320_pwm.h)(0x6A34A989)
+I (.\StdLib\SWM320_adc.h)(0x6A34A989)
+I (.\StdLib\SWM320_dma.h)(0x6A34A989)
+I (.\StdLib\SWM320_lcd.h)(0x6A34A989)
+I (.\StdLib\SWM320_can.h)(0x6A34A989)
+I (.\StdLib\SWM320_sdio.h)(0x6A34A989)
+I (.\StdLib\SWM320_flash.h)(0x6A34A989)
+I (.\StdLib\SWM320_norflash.h)(0x6A34A989)
+I (.\StdLib\SWM320_sdram.h)(0x6A34A989)
+I (.\StdLib\SWM320_sram.h)(0x6A34A989)
+I (.\StdLib\SWM320_crc.h)(0x6A34A989)
+I (.\StdLib\SWM320_rtc.h)(0x6A34A989)
+I (.\StdLib\SWM320_wdt.h)(0x6A34A989)
+F (.\StdLib\SWM320_uart.c)(0x6A34A989)(--c99 -c --cpu Cortex-M4 -D__MICROLIB --li -g -O1 --apcs=interwork -I .\App -I .\CMSIS -I .\StdLib -I .\App\FreeRTOS\include -I .\App\FreeRTOS\portable\RVDS\ARM_CM3-I.\RTE\_SWM320-ID:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525"-o .\out\swm320_uart.o --omf_browse .\out\swm320_uart.crf --depend .\out\swm320_uart.d)
+I (.\CMSIS\SWM320.h)(0x6A34A989)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)
+I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5E8E3CC2)
+I (.\CMSIS\core_cm4.h)(0x6A34A989)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (.\CMSIS\core_cmInstr.h)(0x6A34A989)
+I (.\CMSIS\core_cmFunc.h)(0x6A34A989)
+I (.\CMSIS\core_cmSimd.h)(0x6A34A989)
+I (.\CMSIS\system_SWM320.h)(0x6A34A989)
+I (.\StdLib\SWM320_port.h)(0x6A34A989)
+I (.\StdLib\SWM320_gpio.h)(0x6A34A989)
+I (.\StdLib\SWM320_exti.h)(0x6A34A989)
+I (.\StdLib\SWM320_timr.h)(0x6A34A989)
+I (.\StdLib\SWM320_uart.h)(0x6A34A989)
+I (.\StdLib\SWM320_spi.h)(0x6A34A989)
+I (.\StdLib\SWM320_i2c.h)(0x6A34A989)
+I (.\StdLib\SWM320_pwm.h)(0x6A34A989)
+I (.\StdLib\SWM320_adc.h)(0x6A34A989)
+I (.\StdLib\SWM320_dma.h)(0x6A34A989)
+I (.\StdLib\SWM320_lcd.h)(0x6A34A989)
+I (.\StdLib\SWM320_can.h)(0x6A34A989)
+I (.\StdLib\SWM320_sdio.h)(0x6A34A989)
+I (.\StdLib\SWM320_flash.h)(0x6A34A989)
+I (.\StdLib\SWM320_norflash.h)(0x6A34A989)
+I (.\StdLib\SWM320_sdram.h)(0x6A34A989)
+I (.\StdLib\SWM320_sram.h)(0x6A34A989)
+I (.\StdLib\SWM320_crc.h)(0x6A34A989)
+I (.\StdLib\SWM320_rtc.h)(0x6A34A989)
+I (.\StdLib\SWM320_wdt.h)(0x6A34A989)
+F (.\CMSIS\system_SWM320.c)(0x6A34A989)(--c99 -c --cpu Cortex-M4 -D__MICROLIB --li -g -O1 --apcs=interwork -I .\App -I .\CMSIS -I .\StdLib -I .\App\FreeRTOS\include -I .\App\FreeRTOS\portable\RVDS\ARM_CM3-I.\RTE\_SWM320-ID:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525"-o .\out\system_swm320.o --omf_browse .\out\system_swm320.crf --depend .\out\system_swm320.d)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (CMSIS\SWM320.h)(0x6A34A989)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)
+I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5E8E3CC2)
+I (CMSIS\core_cm4.h)(0x6A34A989)
+I (.\CMSIS\core_cmInstr.h)(0x6A34A989)
+I (.\CMSIS\core_cmFunc.h)(0x6A34A989)
+I (.\CMSIS\core_cmSimd.h)(0x6A34A989)
+I (CMSIS\system_SWM320.h)(0x6A34A989)
+I (.\StdLib\SWM320_port.h)(0x6A34A989)
+I (.\StdLib\SWM320_gpio.h)(0x6A34A989)
+I (.\StdLib\SWM320_exti.h)(0x6A34A989)
+I (.\StdLib\SWM320_timr.h)(0x6A34A989)
+I (.\StdLib\SWM320_uart.h)(0x6A34A989)
+I (.\StdLib\SWM320_spi.h)(0x6A34A989)
+I (.\StdLib\SWM320_i2c.h)(0x6A34A989)
+I (.\StdLib\SWM320_pwm.h)(0x6A34A989)
+I (.\StdLib\SWM320_adc.h)(0x6A34A989)
+I (.\StdLib\SWM320_dma.h)(0x6A34A989)
+I (.\StdLib\SWM320_lcd.h)(0x6A34A989)
+I (.\StdLib\SWM320_can.h)(0x6A34A989)
+I (.\StdLib\SWM320_sdio.h)(0x6A34A989)
+I (.\StdLib\SWM320_flash.h)(0x6A34A989)
+I (.\StdLib\SWM320_norflash.h)(0x6A34A989)
+I (.\StdLib\SWM320_sdram.h)(0x6A34A989)
+I (.\StdLib\SWM320_sram.h)(0x6A34A989)
+I (.\StdLib\SWM320_crc.h)(0x6A34A989)
+I (.\StdLib\SWM320_rtc.h)(0x6A34A989)
+I (.\StdLib\SWM320_wdt.h)(0x6A34A989)
+F (.\CMSIS\startup_SWM320.s)(0x6A34A989)(--cpu Cortex-M4 --li -g --apcs=interwork --pd "__MICROLIB SETA 1" -I .\App -I .\CMSIS -I .\StdLib -I .\App\FreeRTOS\include -I .\App\FreeRTOS\portable\RVDS\ARM_CM3-I.\RTE\_SWM320-ID:\Keil_v5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 525"--list .\out\startup_swm320.lst --xref -o .\out\startup_swm320.o --depend .\out\startup_swm320.d)

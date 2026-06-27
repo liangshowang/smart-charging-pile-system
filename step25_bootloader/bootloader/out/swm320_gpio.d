@@ -1,0 +1,10 @@
+.\out\swm320_gpio.o: StdLib\SWM320_gpio.c
+.\out\swm320_gpio.o: .\CMSIS\SWM320.h
+.\out\swm320_gpio.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\out\swm320_gpio.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\out\swm320_gpio.o: .\CMSIS\core_cm4.h
+.\out\swm320_gpio.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\out\swm320_gpio.o: .\CMSIS\core_cmInstr.h
+.\out\swm320_gpio.o: .\CMSIS\core_cmFunc.h
+.\out\swm320_gpio.o: .\CMSIS\core_cmSimd.h
+.\out\swm320_gpio.o: .\CMSIS\system_SWM320.h

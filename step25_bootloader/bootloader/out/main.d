@@ -1,0 +1,10 @@
+.\out\main.o: main.c
+.\out\main.o: .\CMSIS\SWM320.h
+.\out\main.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\out\main.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\out\main.o: .\CMSIS\core_cm4.h
+.\out\main.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\out\main.o: .\CMSIS\core_cmInstr.h
+.\out\main.o: .\CMSIS\core_cmFunc.h
+.\out\main.o: .\CMSIS\core_cmSimd.h
+.\out\main.o: .\CMSIS\system_SWM320.h

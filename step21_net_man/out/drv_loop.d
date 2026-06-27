@@ -1,0 +1,11 @@
+.\out\drv_loop.o: drv\drv_loop.c
+.\out\drv_loop.o: drv\drv_loop.h
+.\out\drv_loop.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\out\drv_loop.o: .\FreeRTOS\include\FreeRTOS.h
+.\out\drv_loop.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\out\drv_loop.o: .\FreeRTOS\FreeRTOSConfig.h
+.\out\drv_loop.o: .\FreeRTOS\include\projdefs.h
+.\out\drv_loop.o: .\FreeRTOS\include\portable.h
+.\out\drv_loop.o: .\FreeRTOS\include\deprecated_definitions.h
+.\out\drv_loop.o: .\FreeRTOS\portable\RVDS\ARM_CM3\portmacro.h
+.\out\drv_loop.o: .\FreeRTOS\include\mpu_wrappers.h

@@ -1,0 +1,27 @@
+;===========================================================================
+; step25_app.sct — APP 分散加载文件
+;
+; APP 起始地址: 0x00011800 (70KB 偏移)
+; APP 大小:     0x0002E800 (186KB)
+; APP 结束:     0x00040000 (256KB 偏移, 即 FDB 分区起始)
+;
+; Flash 分区:
+;   0x00000 - 0x0FFFF   64KB   boot   — BootLoader
+;   0x10000 - 0x10FFF    4KB   conf   — 启动标志
+;   0x11000 - 0x117FF    2KB   (gap)  — 预留
+;   0x11800 - 0x3E7FF  186KB   app    — 本 APP (当前)
+;   0x3E800 - 0x7FFFF  266KB   fdb    — FlashDB 存储区
+;   0x7C000 - 0x7CFFF    4KB   fdb    — FlashDB (不变)
+;===========================================================================
+
+LR_IROM1 0x00011800 0x0002E800  {    ; APP 加载区 (186KB)
+  ER_IROM1 0x00011800 0x0002E800  {  ; 执行区
+    *.o (RESET, +First)             ; 向量表必须在最前面
+    *(InRoot$$Sections)             ; 根区 (__main, __scatterload 等)
+    .ANY (+RO)                      ; 所有只读段
+    .ANY (+XO)                      ; 所有只执行段
+  }
+  RW_IRAM1 0x20000000 0x00020000  {  ; 128KB 内部 SRAM
+    .ANY (+RW +ZI)                  ; 读写和零初始化数据
+  }
+}

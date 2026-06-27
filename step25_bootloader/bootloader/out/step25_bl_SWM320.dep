@@ -1,0 +1,52 @@
+Dependencies for Project 'step25_bl', Target 'SWM320': (DO NOT MODIFY !)
+F (.\main.c)(0x6A3E3436)(--c99 -c --cpu Cortex-M4 -D__MICROLIB --li -g -O1 --apcs=interwork -I .\CMSIS -I .\StdLib -I ..\-I.\RTE\_SWM320-ID:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525"-o .\out\main.o --omf_browse .\out\main.crf --depend .\out\main.d)
+I (.\CMSIS\SWM320.h)(0x6A3E191B)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)
+I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5E8E3CC2)
+I (.\CMSIS\core_cm4.h)(0x6A3E191B)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (.\CMSIS\core_cmInstr.h)(0x6A3E191B)
+I (.\CMSIS\core_cmFunc.h)(0x6A3E191B)
+I (.\CMSIS\core_cmSimd.h)(0x6A3E191B)
+I (.\CMSIS\system_SWM320.h)(0x6A3E191B)
+F (.\StdLib\SWM320_uart.c)(0x6A3E191B)(--c99 -c --cpu Cortex-M4 -D__MICROLIB --li -g -O1 --apcs=interwork -I .\CMSIS -I .\StdLib -I ..\-I.\RTE\_SWM320-ID:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525"-o .\out\swm320_uart.o --omf_browse .\out\swm320_uart.crf --depend .\out\swm320_uart.d)
+I (.\CMSIS\SWM320.h)(0x6A3E191B)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)
+I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5E8E3CC2)
+I (.\CMSIS\core_cm4.h)(0x6A3E191B)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (.\CMSIS\core_cmInstr.h)(0x6A3E191B)
+I (.\CMSIS\core_cmFunc.h)(0x6A3E191B)
+I (.\CMSIS\core_cmSimd.h)(0x6A3E191B)
+I (.\CMSIS\system_SWM320.h)(0x6A3E191B)
+F (.\StdLib\SWM320_gpio.c)(0x6A3E191C)(--c99 -c --cpu Cortex-M4 -D__MICROLIB --li -g -O1 --apcs=interwork -I .\CMSIS -I .\StdLib -I ..\-I.\RTE\_SWM320-ID:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525"-o .\out\swm320_gpio.o --omf_browse .\out\swm320_gpio.crf --depend .\out\swm320_gpio.d)
+I (.\CMSIS\SWM320.h)(0x6A3E191B)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)
+I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5E8E3CC2)
+I (.\CMSIS\core_cm4.h)(0x6A3E191B)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (.\CMSIS\core_cmInstr.h)(0x6A3E191B)
+I (.\CMSIS\core_cmFunc.h)(0x6A3E191B)
+I (.\CMSIS\core_cmSimd.h)(0x6A3E191B)
+I (.\CMSIS\system_SWM320.h)(0x6A3E191B)
+F (.\StdLib\SWM320_port.c)(0x6A3E191C)(--c99 -c --cpu Cortex-M4 -D__MICROLIB --li -g -O1 --apcs=interwork -I .\CMSIS -I .\StdLib -I ..\-I.\RTE\_SWM320-ID:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525"-o .\out\swm320_port.o --omf_browse .\out\swm320_port.crf --depend .\out\swm320_port.d)
+I (.\CMSIS\SWM320.h)(0x6A3E191B)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)
+I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5E8E3CC2)
+I (.\CMSIS\core_cm4.h)(0x6A3E191B)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (.\CMSIS\core_cmInstr.h)(0x6A3E191B)
+I (.\CMSIS\core_cmFunc.h)(0x6A3E191B)
+I (.\CMSIS\core_cmSimd.h)(0x6A3E191B)
+I (.\CMSIS\system_SWM320.h)(0x6A3E191B)
+F (.\CMSIS\system_SWM320.c)(0x6A3E191B)(--c99 -c --cpu Cortex-M4 -D__MICROLIB --li -g -O1 --apcs=interwork -I .\CMSIS -I .\StdLib -I ..\-I.\RTE\_SWM320-ID:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525"-o .\out\system_swm320.o --omf_browse .\out\system_swm320.crf --depend .\out\system_swm320.d)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (CMSIS\SWM320.h)(0x6A3E191B)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)
+I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5E8E3CC2)
+I (CMSIS\core_cm4.h)(0x6A3E191B)
+I (.\CMSIS\core_cmInstr.h)(0x6A3E191B)
+I (.\CMSIS\core_cmFunc.h)(0x6A3E191B)
+I (.\CMSIS\core_cmSimd.h)(0x6A3E191B)
+I (CMSIS\system_SWM320.h)(0x6A3E191B)
+F (.\CMSIS\startup_SWM320.s)(0x6A3E191B)(--cpu Cortex-M4 --li -g --apcs=interwork --pd "__MICROLIB SETA 1" -I .\CMSIS -I .\StdLib -I ..\-I.\RTE\_SWM320-ID:\Keil_v5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 525"--list .\out\startup_swm320.lst --xref -o .\out\startup_swm320.o --depend .\out\startup_swm320.d)
