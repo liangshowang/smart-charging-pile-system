@@ -28,6 +28,7 @@
 #include "cmd_line.h"
 #include "sysprt.h"
 #include "led_board.h"
+#include "drv_buzzer.h"
 
 __task_body_start;
 
@@ -58,6 +59,8 @@ static void task_entry(void *arg)
     xLastWakeTime = xTaskGetTickCount();
 
     while (1) {
+        static uint8_t buzz_tick = 0;
+
         /* ---- LED 500ms 翻转 ---- */
         {
             TickType_t xNow = xTaskGetTickCount();
@@ -76,6 +79,12 @@ static void task_entry(void *arg)
 
         /* ---- LED 灯板动画 (跑马灯刷新) ---- */
         led_board->work();
+
+        /* ---- 蜂鸣器状态机 (50ms tick) ---- */
+        if (++buzz_tick >= 25) {
+            buzz_tick = 0;
+            buzz->work();
+        }
 
         vTaskDelay(2);
     }

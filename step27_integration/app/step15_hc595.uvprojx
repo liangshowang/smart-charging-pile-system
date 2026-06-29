@@ -466,6 +466,21 @@
               <FileType>1</FileType>
               <FilePath>.\drv\drv_uart1.c</FilePath>
             </File>
+            <File>
+              <FileName>drv_wdt.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\drv\drv_wdt.c</FilePath>
+            </File>
+            <File>
+              <FileName>drv_buzzer.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\drv\drv_buzzer.c</FilePath>
+            </File>
+            <File>
+              <FileName>drv_adc.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\drv\drv_adc.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>

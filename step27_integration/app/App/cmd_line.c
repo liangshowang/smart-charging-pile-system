@@ -33,6 +33,9 @@
 #include "cmd_line.h"
 #include "flash_partition.h"
 #include "SWM320_flash.h"
+#include "drv_wdt.h"
+#include "drv_buzzer.h"
+#include "drv_adc.h"
 
 /* ---- 引脚编号定义在 io_config.h 中 ---- */
 /* PIN_ELC0 / PIN_ELC1 / PIN_SLED — SWM320RET7 物理封装号 */
@@ -66,6 +69,9 @@ static int cmd_relay (int argc, char **argv);
 static int cmd_io    (int argc, char **argv);
 static int cmd_info       (int argc, char **argv);
 static int cmd_reboot_ota (int argc, char **argv);
+static int cmd_wdt        (int argc, char **argv);
+static int cmd_buzz       (int argc, char **argv);
+static int cmd_adc        (int argc, char **argv);
 
 /* ================================================================
  * 命令表
@@ -80,6 +86,9 @@ static const cmd_t cmd_list[] = {
     { "io",     cmd_io     },
     { "info",   cmd_info   },
     { "ota",    cmd_reboot_ota },
+    { "wdt",    cmd_wdt    },
+    { "buzz",   cmd_buzz   },
+    { "adc",    cmd_adc    },
 };
 
 /* ================================================================
@@ -285,6 +294,80 @@ static int cmd_info(int argc, char **argv)
     printf("  Tick      : %d ms\r\n", (int)xTaskGetTickCount());
     printf("  UART      : 115200-8-N-1\r\n");
     printf("\r\n");
+    return 0;
+}
+
+/* ================================================================
+ * cmd_wdt — WDT 状态查询 / 喂狗 / 禁用
+ *   wdt          — 查询当前计数值
+ *   wdt feed     — 手动喂狗
+ *   wdt test     — 停止喂狗, 等复位 (验证 WDT 功能)
+ * ================================================================ */
+static int cmd_wdt(int argc, char **argv)
+{
+    if (argc >= 2 && strcmp(argv[1], "feed") == 0) {
+        wdt->feed();
+        printf("WDT: feed OK, value=%lu\r\n", wdt->get_value());
+    } else if (argc >= 2 && strcmp(argv[1], "test") == 0) {
+        printf("WDT: will reset in ~5s... (no more feed)\r\n");
+        /* 不再喂狗, WDT 将复位 MCU */
+    } else if (argc >= 2 && strcmp(argv[1], "off") == 0) {
+        wdt->disable();
+        printf("WDT: disabled (debug only!)\r\n");
+    } else {
+        printf("WDT: value=%lu (5s timeout, in reset mode)\r\n",
+               wdt->get_value());
+        printf("Usage: wdt [feed|test|off]\r\n");
+    }
+    return 0;
+}
+
+/* ================================================================
+ * cmd_buzz — 蜂鸣器测试
+ *   buzz short / double / long / alarm / charging / finish / error / off
+ * ================================================================ */
+static int cmd_buzz(int argc, char **argv)
+{
+    if (argc < 2) {
+        printf("Usage: buzz short|double|long|alarm|charging|finish|error|off\r\n");
+        return -1;
+    }
+
+    if      (strcmp(argv[1], "short")    == 0) buzz->beep(BUZZ_BEEP_SHORT);
+    else if (strcmp(argv[1], "double")   == 0) buzz->beep(BUZZ_BEEP_DOUBLE);
+    else if (strcmp(argv[1], "long")     == 0) buzz->beep(BUZZ_BEEP_LONG);
+    else if (strcmp(argv[1], "alarm")    == 0) buzz->beep(BUZZ_ALARM);
+    else if (strcmp(argv[1], "charging") == 0) buzz->beep(BUZZ_CHARGING);
+    else if (strcmp(argv[1], "finish")   == 0) buzz->beep(BUZZ_FINISH);
+    else if (strcmp(argv[1], "error")    == 0) buzz->beep(BUZZ_ERROR);
+    else if (strcmp(argv[1], "off")      == 0) buzz->stop();
+    else {
+        printf("Unknown: %s\r\n", argv[1]);
+        return -1;
+    }
+    printf("buzz: %s (buzzing=%d)\r\n", argv[1], buzz->is_buzzing());
+    return 0;
+}
+
+/* ================================================================
+ * cmd_adc — ADC 电压读取
+ *   adc        — 读通道 0 原始值 + 电压 (divider=11, vref=3300mV)
+ *   adc raw    — 仅打印原始值
+ * ================================================================ */
+static int cmd_adc(int argc, char **argv)
+{
+    uint16_t raw;
+    uint32_t mv;
+
+    raw = adc->read_raw(0);
+    mv  = adc->read_mv(0, 3300, 11);
+
+    if (argc >= 2 && strcmp(argv[1], "raw") == 0) {
+        printf("ADC CH0 raw: %u / 4096\r\n", raw);
+    } else {
+        printf("ADC CH0: raw=%u / 4096, V=%lu mV (%lu.%03lu V)\r\n",
+               raw, mv, mv / 1000, mv % 1000);
+    }
     return 0;
 }
 

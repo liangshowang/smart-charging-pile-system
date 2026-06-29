@@ -41,6 +41,9 @@
 #include "flashdb.h"
 #include "SWM320_flash.h"
 #include "flash_partition.h"
+#include "drv_wdt.h"
+#include "drv_buzzer.h"
+#include "drv_adc.h"
 #include "air_man.h"
 #include "net_man.h"
 #include "message.h"
@@ -64,7 +67,7 @@ static void show_banner(void)
 {
     printf("\r\n");
     printf("========================================\r\n");
-    printf("  Step 25: BootLoader + Flash Partition\r\n");
+    printf("  Step 28: WDT + Buzzer + ADC integrated\r\n");
     printf("  CPU Clock : %d Hz\r\n", SystemCoreClock);
     printf("  UART0     : 115200 bps (debug console)\r\n");
     printf("  UART1     : 115200 bps (AIR724 4G module)\r\n");
@@ -122,6 +125,16 @@ static void task_entry(void *arg)
 
     /* ---- 8. FlashDB 配置加载 ---- */
     flashdb->init();
+
+    /* ---- 9. 看门狗初始化 (5s 超时, 由 ctrl 任务喂狗) ---- */
+    wdt->init(5000);
+    sysprt->alog("[task_start] WDT init (5000ms timeout)\r\n");
+
+    /* ---- 10. 蜂鸣器初始化 (1000Hz/50%占空比) ---- */
+    buzz->init(1000, 50);
+
+    /* ---- 11. ADC 初始化 (通道0, 电压监测) ---- */
+    adc->init((1 << 0));  /* ADC_CH0 */
 
     /* ---- Step 26: 写入 boot_config_t 到 CONF 扇区 (0x10000) ----
      * BootLoader 上电后读取 boot_app 决定: 跳转 APP 还是 OTA 更新。
